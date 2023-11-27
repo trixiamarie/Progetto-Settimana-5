@@ -19,16 +19,21 @@ function cambioColore() {
 
 function mRandom() {
     let m = document.querySelectorAll('g[opacity]');
+    //console.log(m);
     
-    m.forEach(element => {
-        
-        let randomOpacity = Math.random();
+    let randomIndex = Math.floor(Math.random() * m.length);
+    let randomElement = m[randomIndex];
+    let randomOpacity = Math.round(Math.random());
+    randomElement.setAttribute('opacity', randomOpacity);
 
-        
-        element.setAttribute('opacity', randomOpacity);
+    randomElement.classList.add('random');
 
-        // console.log(`Nuovo valore di opacity per ${element.tagName}: ${randomOpacity}`);
+    randomElement.addEventListener('animationend', function() {
+        randomElement.classList.remove('random');
     });
+
+    //console.log(`${randomOpacity}`);
 }
 
 mRandom();
+setInterval(mRandom, 500);
