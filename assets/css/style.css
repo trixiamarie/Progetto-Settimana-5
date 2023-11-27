@@ -1,0 +1,240 @@
+/*GENERALI*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    display: flex;
+    background-color: #ffc017;
+    padding: 0rem 22rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid black;
+    transition: background-color 0.5s ease; 
+}
+header ul li{
+    padding: 1rem;
+    font-size: 0.9rem;
+    display: inline-block;
+    list-style-type: none;
+}
+header button{
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 7rem;
+    border: none;
+    transition: background-color 0.5s ease;
+}
+  
+/*SECTION 1*/
+#s1{
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    padding:1rem 0rem 1rem 22rem;
+    background-color: #ffc017;
+    border-bottom: solid 0.1rem black;
+}
+#s1 div{
+    width: 100rem;
+}
+#s1 div p:first-child{
+    font-size: 7rem;
+    font-family: 'Spectral', serif;
+    font-weight: 500;
+    letter-spacing: -6px;
+}
+#s1 div p:nth-child(2){
+    font-size: 1.5rem;
+    font-weight:400;
+    padding: 1rem 0rem;
+    color: rgb(25, 25, 25);
+}
+#s1 div button{
+    color: white;
+    background-color: rgb(25, 25, 25);
+    border-radius: 2rem;
+    height: 2.5rem;
+    width: 13rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 3rem 0rem;
+}
+/*SECTION 2*/
+#s2{
+    padding: 1rem 22rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.1rem solid grey;
+}
+#trendingdtitle{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+#trendingdtitle img{
+    padding-right: 1rem;
+}
+#trending{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content:space-between;
+}
+.article{
+    margin: 1rem 1rem 1rem 0rem;
+}
+#s2 div:last-child div {
+    display: flex;
+    width: 20rem;
+
+}
+#s2 div:last-child div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#s2 div:last-child div div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.article div div img{
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    width: auto;
+    margin-right: 0.5rem;
+}
+.article div div p span{
+    font-weight: lighter;
+}
+.article div div:first-child p{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.article > div > p {
+    padding-top: 1rem;
+    font-weight: bold;
+  }
+.date{
+    padding-top: 1rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.date p{
+    padding-right:0.5rem;
+    
+}
+.num{
+   font-size: 2rem;
+    font-weight: bold;
+    padding: 0rem 1rem 0rem 0rem;
+    color: #c5c4c4bd;
+}
+
+/*SECTION 3*/
+
+#s3{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 22rem;
+    align-items: flex-start;
+}
+#s3>div:first-of-type{
+    margin: 3rem 0rem;
+    padding-right: 5rem;
+    width: 60%;
+}
+#articles3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+#articles3>img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    padding-left: 1rem;
+}
+#articles3 > div > div {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+#articles3 > div > div img {
+    height: 1.5rem;
+    border-radius: 0.5rem;
+}
+.names3{
+    padding-left: 1rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.names3 span{
+    font-weight: lighter;
+}
+  
+#articles3 > div > p:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+.date span button{
+    background-color: #f2f3f3;
+    border-radius: 0.5rem;
+    color: #757576;
+    border: none;
+    height: 1.2rem;
+}
+#s3 .date{
+    display: flex;
+    justify-content: space-between;
+}
+#s3 .date div{
+    display: flex;
+    justify-content: space-between;
+}
+#s3>div:last-of-type{
+    width: 40%;
+    margin: 3rem 0rem;
+}
+.footer li button{
+    
+    vertical-align: middle;
+    list-style: none;
+    height: 2rem;
+    color: grey;
+    border:none;
+    background-color: transparent;
+}
+.search li button{
+    padding: 0rem 1rem;
+    margin: 0.2rem;
+    vertical-align: middle;
+    list-style: none;
+    height: 2rem;
+    color: grey;
+    border: 0.1rem solid grey;
+    background-color: transparent;
+}
+#s3 div ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 1rem 0rem;
+}
+
+
+  

@@ -1,0 +1,30 @@
+@media screen and (max-width:1024px){
+    header{
+        padding: 0rem 1rem;
+    }
+    #s1{
+        padding: 1rem 0rem 1rem 1rem;
+    }
+    #s1 div p:first-child {
+        font-size: 4rem;
+    }
+    #s2 {
+        padding: 1rem 2rem;
+    }
+    #s3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 1rem 2rem;
+    }
+    #s3>div:last-of-type {
+        width: 100%;
+        margin: 1rem 0rem;
+    }
+    #s3>div:first-of-type {
+        margin: -2rem 0rem;
+        padding-right: 0rem; 
+        width: 100%;
+    }
+}

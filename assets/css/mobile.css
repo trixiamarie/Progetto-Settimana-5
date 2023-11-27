@@ -1,0 +1,35 @@
+@media screen and (max-width:425px){
+    header ul li:first-child, li:nth-child(2),li:nth-child(3){
+        display: none;
+    }
+    header ul li {
+        padding: 0.5rem;
+    }
+    #s1 svg{
+        display: none;
+    }
+    #s1 {
+        height: 15rem;
+    }
+    #s1 div p:nth-child(2) {
+        font-size: 1rem;
+    }
+    #s1 div button{
+        margin:1rem 0rem;
+    }
+    #s3{
+        padding: 1rem 0.5rem;
+    }
+    #s3>div:last-of-type {
+        width: 100%;
+        margin: 1rem 0rem;
+    }
+    #s3>div:first-of-type {
+        margin: -3rem 0rem;
+        padding-right: 0rem;
+        width: 100%;
+    }
+    #articles3>img {
+        max-width: 135px;
+    }
+}
